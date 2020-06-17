@@ -8,7 +8,7 @@
 
 .calculadora{
 
-	background-color: #f3c623;
+	background-color: #f3c623; 
 	width: fit-content;
 	margin: auto;
 	margin-top: 30px;
@@ -56,9 +56,11 @@
 
 .numeros button{
 
-	border: 0px;
-	background-color: #fff;
+	border: 1px solid;
+	background-color: #f54291;
 	transition: all 0.09s;
+	color:white;
+
 
 }
 
