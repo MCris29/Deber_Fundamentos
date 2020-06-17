@@ -1,0 +1,106 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+
+
+}
+
+.calculadora{
+
+	background-color: #ededed;
+	width: fit-content;
+	margin: auto;
+	margin-top: 30px;
+
+}
+
+.sr{
+
+	padding: 0px 18px 18px;
+
+}
+
+.sr button{
+
+	width: 100%;
+	background-color: #48c;
+	color: #fff;
+	border: none;
+
+}
+
+.pantalla{
+
+	padding: 18px 18px 0px 18px;
+
+}
+
+.teclas{
+
+	display: flex;
+	padding: 18px;
+
+}
+.numeros{
+
+	padding: 18px 9px 18px 18px;
+
+}
+
+.numeros div{
+
+	text-align: center;
+
+}
+
+.numeros button{
+
+	border: 0px;
+	background-color: #fff;
+	transition: all 0.09s;
+
+}
+
+.numeros button:hover{
+
+	box-shadow: 1px 1px 5px #aaa;
+
+}
+
+button{
+
+	padding: 15px 24px;
+	margin: 2px 0px;
+	font-size: 20px
+
+}
+
+
+.op{
+
+	padding: 18px 18px 18px 9px;
+
+}
+
+
+
+.op button{
+
+	display: block;
+	width: 54px;
+	height: 54px;
+	padding: 9px 15px;
+	background-color: rgba(30,60,160,0.12);
+	border: none; 
+
+}
+
+
+#resultado{
+
+	background-color: #555;
+	color: #eee;
+	padding: 9px;
+
+}
