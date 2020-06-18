@@ -36,6 +36,9 @@
 .pantalla{
 
 	padding: 18px 18px 0px 18px;
+	text-align: center;
+	
+	
 
 }
 
@@ -43,6 +46,9 @@
 {
 	display: flex;
 	padding: 18px;
+	justify-content: center;
+	background:#d4f3ef ;
+
 }
 .numeros{
 
@@ -53,6 +59,7 @@
 .numeros div{
 
 	text-align: center;
+	
 
 }
 
@@ -99,7 +106,8 @@ button{
 	height: 54px;
 	padding: 9px 15px;
 	background-color: rgba(25, 25, 112, 0.5);
-	border: none; 
+	border: 2px solid;
+	border-color:#6a097d;
 
 }
 
@@ -109,8 +117,9 @@ button{
 }
 #resultado{
 
-	background-color: #555;
-	color: #eee;
+	background-color: #fcf876;
+	color: #6a197d;
 	padding: 9px;
+	font-size: 45px;
 
 }
