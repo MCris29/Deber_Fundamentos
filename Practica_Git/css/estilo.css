@@ -3,12 +3,15 @@
 	margin: 0px;
 	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
 
-
 }
 
 .calculadora{
 
+<<<<<<< HEAD
 	background-color: #f3c623; 
+=======
+	background-color: rgba(85, 200, 25, 0.5);
+>>>>>>> 4eaaa973628ade8f74eaddd8b743b5f9356402f2
 	width: fit-content;
 	margin: auto;
 	margin-top: 30px;
@@ -24,7 +27,7 @@
 .sr button{
 
 	width: 100%;
-	background-color: #48c;
+	background-color: rgba(0, 0, 255, 0.5);
 	color: #fff;
 	border: none;
 
@@ -36,11 +39,10 @@
 
 }
 
-.teclas{
-
+.teclas
+{
 	display: flex;
 	padding: 18px;
-
 }
 .numeros{
 
@@ -67,7 +69,11 @@
 .numeros button:hover{
 
 	box-shadow: 1px 1px 5px #aaa;
+}
 
+.numeros button:hover
+{
+	background-color: #C0C0C0;
 }
 
 button{
@@ -82,7 +88,6 @@ button{
 .op{
 
 	padding: 18px 18px 18px 9px;
-
 }
 
 
@@ -93,12 +98,15 @@ button{
 	width: 54px;
 	height: 54px;
 	padding: 9px 15px;
-	background-color: rgba(30,60,160,0.12);
+	background-color: rgba(25, 25, 112, 0.5);
 	border: none; 
 
 }
 
-
+.op button:hover
+{
+	background-color: #6A5ACD;
+}
 #resultado{
 
 	background-color: #555;
